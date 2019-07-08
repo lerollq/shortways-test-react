@@ -1,0 +1,21 @@
+{
+  "datastore": {
+    "cities": [
+      {"id":"1", "country_id":1, "name":"Nantes"},
+      {"id":"2", "country_id":1, "name":"Paris"},
+      {"id":"3", "country_id":2, "name":"Birmingham"},
+      {"id":"4", "country_id":3, "name":"Firenze"}
+    ],
+    "countries": [
+      {"id":"1", "code":"fr-FR", "name":"France"},
+      {"id":"2", "code":"en-GB", "name":"Great Britain"},
+      {"id":"3", "code":"it", "name":"Italia"}
+    ],
+    "members": [
+      {"firstName":"Maurice", "lastName":"Robert", "address":"3 rue du Chemin Vert", "city":1},
+      {"firstName":"Roberto", "Palmo":"", "address":"Via dei Calzaiuoli, 7", "city":4},
+      {"firstName":"Stephen", "lastName":"Carpenter", "address":"45 Stonehenge Bd", "city":3},
+      {"firstName":"Laura", "lastName":"Desprès", "address":"3 rue des Martyrs", "city":1}
+    ]
+  }
+}
